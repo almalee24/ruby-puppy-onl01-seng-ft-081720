@@ -8,7 +8,6 @@ class Dog
     save
   end 
   
-  private
   
   def all 
     @@all
