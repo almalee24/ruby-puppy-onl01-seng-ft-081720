@@ -17,7 +17,7 @@ class Dog
   
   def print_all 
     @@all.each do |dog|
-      dog
+      dog.name
     end
   end
   
