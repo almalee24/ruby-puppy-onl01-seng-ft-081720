@@ -23,7 +23,6 @@ class Dog
   
   def self.clear_all 
     @@all = []
-    @@all
   end
   
 end 
