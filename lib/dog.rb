@@ -16,9 +16,7 @@ class Dog
   
   
   def print_all 
-    @@all.collect do |dog|
-      dog.name
-    end
+    @@all.collect{|dog| dog.name}
   end
   
   def save 
